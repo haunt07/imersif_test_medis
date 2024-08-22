@@ -1,5 +1,5 @@
 import unittest
-from soal import add, sub, multiplication, division, count_capital_letters,reverse_sentence, check_palindrome
+from solved import add, sub, multiplication, division, count_capital_letters,reverse_sentence, check_palindrome
 
 class TestSoal(unittest.TestCase):
     def test_add(self):
