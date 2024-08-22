@@ -1,5 +1,3 @@
-import re
-
 def add(a:float,b:float)->float:
     '''
     Soal penjumlahan
