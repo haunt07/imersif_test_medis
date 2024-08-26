@@ -5,9 +5,10 @@ def add(a:float,b:float)->float:
     hasil = a + b
 
     CONTOH:
-    a = 1
-    b = 2
-    return 3
+    hasil = add(1,2)
+    print(hasil) 
+    
+    Output = 3
     '''
 
     #-----code-----#
@@ -20,12 +21,14 @@ def sub(a:float,b:float)->float:
     hasil = a - b
 
     CONTOH:
-    a = 1
-    b = 2
-    return  -1
+    hasil = sub(1,2)
+    print(hasil)
+
+    Output: -1
     '''
 
     #-----code-----#
+
 
 
 def multiplication(a:float,b:float)->float:
@@ -35,11 +38,19 @@ def multiplication(a:float,b:float)->float:
     hasil 2 angka dibelakang koma
     hasil = a*b
 
-    CONTOH:
-    a = 1
-    b = 2
-    return  2
+    CONTOH 1:
+    hasil = multiplication(1,2)
+    print(hasil)
+    
+    Output = 2
+
+    CONTOH 2:
+    hasil = multiplication(1.1,1.1)
+    print(hasil)
+    
+    Output = 1.21
     '''
+
 
     #-----code-----#
 
@@ -52,18 +63,22 @@ def division(a:float,b:float)->float:
     hasil = a/b
 
     CONTOH:
-    a = 2
-    b = 2
-    return  1
+    hasil = division(2,3)
+    print(hasil)
+
+    Output = 0.67
 
     Jika terdapat error ketika pembagi adalah angka 0 lakukan:
     Throw ValueError dengan message "Error division number"
     MISAL KETIKA:
-    a = 2
-    b = 0
+    hasil = division(2,0)
+    print(hasil)
+
+    Output = "Error division number"
     '''
 
     #-----code-----#
+
     
 
 def count_capital_letters(data:str)->int:
@@ -71,13 +86,18 @@ def count_capital_letters(data:str)->int:
     MENGHITUNG JUMLAH HURUF KAPITAL DARI DATA
 
     CONTOH:
-    data = "ABCabc"
-    return 3
+    hasil = count_capital_letters("ABCabc")
+    print(hasil)
+
+    Output = 3
 
     Jika terdapat spasi didalam data lakukan:
     Throw ValueError dengan message "Wrong input"
     MISAL KETIKA:
-    data = "a     s  "
+    hasil = count_capital_letter("a     s  ")
+    print(hasil)
+
+    Output = "Wrong input"
     '''
 
     #-----code-----#
@@ -87,15 +107,19 @@ def reverse_sentence(data:str)->str:
     '''
     MELAKUKAN REVERSE SENTENCE DARI DATA
     
-    CONTOH:
-    data = "1234a5c6"
-    return "6c5a4321"
+    CONTOH 1:
+    hasil = reverse_sentence("1234a5c6")
+    print(hasil)
+
+    Output = "6c5a4321"
 
     Jika terdapat spasi, harus dihilangkan
 
-    CONTOH:
-    data = "123456 asd 123456"
-    return "654321dsa654321"
+    CONTOH 2:
+    hasil = reverse_sentence("123456 asd 123456")
+    print(hasil)
+
+    Output = "654321dsa654321"
     '''
 
     #-----code-----#
@@ -108,27 +132,29 @@ def check_palindrome(data:str)->bool:
     jika terdapat pola kalimat yang dibalik hasilnya sama maka hasilnya True
     jika sebaliknya maka salah
 
-    CONTOH:
-    data=  "uwu"
-    return True
+    CONTOH 1:
+    check_palindrome("uwu")
+    Output = True
 
     CONTOH 2:
-    data = "pull up if i pull up"
-    return True
+    check_palindrome("pull up if i pull up")
+    Output = True
 
     CONTOH 3:
-    data = "coding"
-    return False
+    check_palindrome("coding")
+    Output = False
 
     CONTOH 4:
-    data = "123awa335446  "
-    return True
+    check_palindrome("123awa335446  ")
+    Output = True
 
     Jika panjang data dibawah dari 3
     maka Throw ValueError("Wrong Input")
     MISAL KETIKA:
-    data = "as"
-    data = "1"
+    check_palindrome("as")
+    check_palindrome("1")
+
+    Output = "Wrong input"
     '''
 
     #-----code-----#
@@ -145,17 +171,17 @@ def uwu_text_converter(data:str)->str:
     3. Mengubah huruf 's' menjadi 'c' termasuk huruf kapital (S -> C & s -> c)
     3. Jika ada huruf 'm' dan 'n' yang diikuti dengan 'o' termasuk huruf kapital, maka masukkan huruf y di antaranya.
 
-    CONTOH:
-    data = "Semoga hari lancar sesuai rencana"
-    output = "Cemyoga hawi ini wancaw cecuai wencana"
+    CONTOH 1:
+    uwu_text_converter("Semoga hari lancar sesuai rencana")
+    Output = "Cemyoga hawi ini wancaw cecuai wencana"
 
-    CONTOH 
-    data = "Lamborghini mobil tercepat nomor satu di dunia"
-    output = "Wambowghini mobil tewcepat nyomow catu di dunia"
+    CONTOH 2:
+    uwu_text_converter("Lamborghini mobil tercepat nomor satu di dunia")
+    Output = "Wambowghini mobil tewcepat nyomow catu di dunia"
 
-    CONTOH 
-    data = "Sakura menolong naruto dari madara"
-    output = "Cakuwa menyolong nawuto dawi madawa"
+    CONTOH 3:
+    uwu_text_converter("Sakura menolong naruto dari madara")
+    Output = "Cakuwa menyolong nawuto dawi madawa"
     '''
 
     #-----code-----#
