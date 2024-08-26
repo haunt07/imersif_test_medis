@@ -9,6 +9,8 @@ class TestSoal(unittest.TestCase):
         self.assertEqual(res,2.1)
         res = add(1,-2)
         self.assertEqual(res,-1)
+        res = add(1,2.111)
+        self.assertEqual(res,3.11)
 
     def test_sub(self):
         res = sub(1,2)
@@ -17,6 +19,8 @@ class TestSoal(unittest.TestCase):
         self.assertEqual(res,1)
         res = sub(3,1.1)
         self.assertEqual(res,1.9)
+        res = sub(1,2.1111)
+        self.assertEqual(res,-1.11)
 
     def test_multiplication(self):
         res = multiplication(1,2)
