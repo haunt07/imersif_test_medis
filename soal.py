@@ -194,7 +194,7 @@ def check_palindrome(data:str)->bool:
     check_palindrome("1")
 
     Output Terminal:
-    ValueError: Wrong input
+    ValueError: Wrong Input
     '''
 
     #-----code-----#
