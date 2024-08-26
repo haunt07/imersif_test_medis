@@ -10,16 +10,17 @@ python3 -m unittest discover -v -s test
 3. Jika soal berhasil dikerjakan dengan benar, maka pada terminal akan muncul keterangan "ok" untuk tiap-tiap soal. 
 DI BAWAH ADALAH CONTOH KETIKA SEMUA SOAL BERHASIL DIKERJAKAN DENGAN BENAR
 ```
-test_add (test_index.TestSoal) ... ok
-test_check_palindrome (test_index.TestSoal) ... ok
-test_count_capital_letters (test_index.TestSoal) ... ok
-test_division (test_index.TestSoal) ... ok
-test_multiplication (test_index.TestSoal) ... ok
-test_reverese_sentence (test_index.TestSoal) ... ok
-test_sub (test_index.TestSoal) ... ok
+test_add (test_index.TestSoal.test_add) ... ok
+test_check_palindrome (test_index.TestSoal.test_check_palindrome) ... ok
+test_count_capital_letters (test_index.TestSoal.test_count_capital_letters) ... ok
+test_division (test_index.TestSoal.test_division) ... ok
+test_multiplication (test_index.TestSoal.test_multiplication) ... ok
+test_reverese_sentence (test_index.TestSoal.test_reverese_sentence) ... ok
+test_sub (test_index.TestSoal.test_sub) ... ok
+test_uwu_text_converter (test_index.TestSoal.test_uwu_text_converter) ... ok
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.002s
+Ran 8 tests in 0.001s
 
 OK
 ```

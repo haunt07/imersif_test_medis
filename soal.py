@@ -11,9 +11,7 @@ def add(a:float,b:float)->float:
     '''
 
     #-----code-----#
-
-    result = 0.0
-    return result
+    
 
 def sub(a:float,b:float)->float:
     '''
@@ -29,8 +27,6 @@ def sub(a:float,b:float)->float:
 
     #-----code-----#
 
-    result = 0.0
-    return result
 
 def multiplication(a:float,b:float)->float:
     '''
@@ -47,8 +43,6 @@ def multiplication(a:float,b:float)->float:
 
     #-----code-----#
 
-    result = 0.0
-    return result
 
 def division(a:float,b:float)->float:
     '''
@@ -71,8 +65,6 @@ def division(a:float,b:float)->float:
 
     #-----code-----#
     
-    result = 0.0
-    return result
 
 def count_capital_letters(data:str)->int:
     '''
@@ -90,8 +82,6 @@ def count_capital_letters(data:str)->int:
 
     #-----code-----#
 
-    result=0
-    return result
 
 def reverse_sentence(data:str)->str:
     '''
@@ -110,8 +100,6 @@ def reverse_sentence(data:str)->str:
 
     #-----code-----#
 
-    result=""
-    return result
 
 def check_palindrome(data:str)->bool:
     '''
@@ -144,6 +132,30 @@ def check_palindrome(data:str)->bool:
     '''
 
     #-----code-----#
+    
 
-    result=False
-    return result
+def uwu_text_converter(data:str)->str:
+    '''
+    KONVERSI TEKS MENJADI IMOET UwU
+
+    Untuk mengubah teks menjadi imut UwU, terdapat beberapa kondisi yang harus terpenuhi:
+
+    1. Mengubah huruf 'r' menjadi 'w' termasuk huruf kapital (R -> W & r -> w)
+    2. Mengubah huruf 'l' menjadi 'w' termasuk huruf kapital (L -> W & l -> w)
+    3. Mengubah huruf 's' menjadi 'c' termasuk huruf kapital (S -> C & s -> c)
+    3. Jika ada huruf 'm' dan 'n' yang diikuti dengan 'o' termasuk huruf kapital, maka masukkan huruf y di antaranya.
+
+    CONTOH:
+    data = "Semoga hari lancar sesuai rencana"
+    output = "Cemyoga hawi ini wancaw cecuai wencana"
+
+    CONTOH 
+    data = "Lamborghini mobil tercepat nomor satu di dunia"
+    output = "Wambowghini mobil tewcepat nyomow catu di dunia"
+
+    CONTOH 
+    data = "Sakura menolong naruto dari madara"
+    output = "Cakuwa menyolong nawuto dawi madawa"
+    '''
+
+    #-----code-----#

@@ -1,5 +1,5 @@
 import unittest
-from soal import add, sub, multiplication, division, count_capital_letters,reverse_sentence, check_palindrome
+from soal import add, sub, multiplication, division, count_capital_letters,reverse_sentence, check_palindrome, uwu_text_converter
 
 class TestSoal(unittest.TestCase):
     def test_add(self):
@@ -61,6 +61,17 @@ class TestSoal(unittest.TestCase):
         self.assertFalse(res)
         res=check_palindrome("asd123321qwe")
         self.assertTrue(res)
+        res=check_palindrome("pull up if i pull up")
+        self.assertTrue(res)
         with self.assertRaises(ValueError) as err:
             check_palindrome("12")
         self.assertEqual(str(err.exception),"Wrong Input")
+
+    def test_uwu_text_converter(self):
+        res=uwu_text_converter("Molen pisang adalah kesukaanku")
+        self.assertEqual(res,"Myowen picang adawah kecukaanku")
+        res=uwu_text_converter("Sasuke memiliki susanoo yang keren")
+        self.assertEqual(res,"Cacuke memiwiki cucanyoo yang kewen")
+        res=uwu_text_converter("Orang afrika lebih tinggi dari orang asia")
+        self.assertEqual(res,"Owang afwika webih tinggi dawi owang acia")
+
