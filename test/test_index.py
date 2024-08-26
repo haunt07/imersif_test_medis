@@ -58,10 +58,8 @@ class TestSoal(unittest.TestCase):
     
     def test_check_palindrome(self):
         res=check_palindrome("abcdef")
-        print("abcdef")
         self.assertFalse(res)
         res=check_palindrome("asd123321qwe")
-        print("asd123321qwe")
         self.assertTrue(res)
         with self.assertRaises(ValueError) as err:
             check_palindrome("12")
