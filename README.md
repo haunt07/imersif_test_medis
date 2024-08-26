@@ -7,7 +7,8 @@
 ```
 python3 -m unittest discover -v -s test
 ```
-3. jika semua soal diisi dengan program sesuai dengan ketentuan yang diminta, akan muncul tampilan terminal seperti dibawah ini
+3. Jika soal berhasil dikerjakan dengan benar, maka pada terminal akan muncul keterangan "ok" untuk tiap-tiap soal. 
+DI BAWAH ADALAH CONTOH KETIKA SEMUA SOAL BERHASIL DIKERJAKAN DENGAN BENAR
 ```
 test_add (test_index.TestSoal) ... ok
 test_check_palindrome (test_index.TestSoal) ... ok
